@@ -12,7 +12,7 @@ export default function Home() {
         className="flex flex-col items-center justify-center"
       >
         <div className="flex flex-col items-center justify-center">
-          <img className="w-32 h-32 mb-8 rounded-full" src="./Eduardo.jpg" alt="Eduardo" />
+          <img className="w-32 h-32 mb-8 rounded-full" src="/Eduardo.jpeg" alt="Eduardo" />
           <h1 className="mx-auto text-2xl font-semibold tracking-widest text-center sm:text-3xl">
             EDUARDO FERREIRA
           </h1>
