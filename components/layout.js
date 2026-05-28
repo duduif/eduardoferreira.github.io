@@ -66,12 +66,12 @@ export default function Layout({ children }) {
         </div>
         <motion.div layoutId="nav" className="flex flex-wrap justify-center leading-6">
           <Link href="/">
-            <button className="w-24 py-1 text-xs leading-6 tracking-widest border border-gray-300 rounded-full dark:hover:border-lightBlue-400 dark:border-white focus:outline-none hover:text-lightBlue-600 hover:border-lightBlue-600 dark:hover:text-lightBlue-400">
+            <button className="w-24 py-1 text-xs leading-6 tracking-widest border border-gray-300 rounded-full dark:hover:border-pink-500 dark:border-white focus:outline-none hover:text-lightBlue-600 hover:border-lightBlue-600 dark:hover:text-pink-500">
               HOME
             </button>
           </Link>
           <Link href="/about">
-            <button className="w-24 py-1 mx-2 text-xs leading-6 tracking-widest border border-gray-300 rounded-full dark:hover:border-lightBlue-400 dark:border-white focus:outline-none hover:text-lightBlue-600 hover:border-lightBlue-600 dark:hover:text-lightBlue-400">
+            <button className="w-24 py-1 mx-2 text-xs leading-6 tracking-widest border border-gray-300 rounded-full dark:hover:border-pink-500 dark:border-white focus:outline-none hover:text-lightBlue-600 hover:border-lightBlue-600 dark:hover:text-pink-500">
               ABOUT
             </button>
           </Link>
@@ -92,8 +92,8 @@ export default function Layout({ children }) {
           </a>
           <a
             className="text-gray-400 dark:text-white hover:text-lightBlue-600 dark:hover:text-pink-500"
-dark:text-white hover:text-lightBlue-600 dark:hover:text-pink-500"
-"
+            href="https://www.linkedin.com/in/eduardo-ferreira-it/"
+            target="_blank"
           >
             <FontAwesomeIcon className="mr-6 text-2xl" icon={faLinkedinIn} />
           </a>
