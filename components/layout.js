@@ -48,6 +48,7 @@ export default function Layout({ children }) {
       <Head>
         <title>Eduardo Ferreira</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <link rel="icon" href="/network.png?v=2" />
         <script defer data-domain="eduardoferreira.vercel.app" src="https://plausible.io/js/plausible.js"></script>
       </Head>
       <div
