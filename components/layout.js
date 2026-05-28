@@ -84,14 +84,14 @@ export default function Layout({ children }) {
         </motion.div>
         <motion.div layoutId="social-icons" className="flex items-center justify-center">
           <a
-            className="text-gray-400 dark:text-white hover:text-lightBlue-600 dark:hover:text-lightBlue-600"
+            className="text-gray-400 dark:text-white hover:text-lightBlue-600 dark:hover:text-pink-500"
             href="https://github.com/duduif"
             target="_blank"
           >
             <FontAwesomeIcon className="mr-6 text-2xl " icon={faGithub} />
           </a>
           <a
-            className="text-gray-400 dark:text-white hover:text-lightBlue-600 dark:hover:text-lightBlue-600"
+            className="text-gray-400 dark:text-white hover:text-lightBlue-600 dark:hover:text-pink-500"
             href="https://www.linkedin.com/in/eduardo-ferreira-it/"
             target="_blank"
           >
