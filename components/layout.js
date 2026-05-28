@@ -48,7 +48,8 @@ export default function Layout({ children }) {
       <Head>
         <title>Eduardo Ferreira</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <script defer data-domain="eduardoferreira.github.io" src="https://plausible.io/js/plausible.js"></script>
+        <link rel="icon" href="/cat.png" />
+        <script defer data-domain="eduardoferreira.vercel.app" src="https://plausible.io/js/plausible.js"></script>
       </Head>
       <div
         style={{ minWidth: '24rem', maxWidth: '37rem' }}
